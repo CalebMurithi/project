@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Finance Management</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#budget">Budget Tracker</a></li>
+                <li><a href="#expenses">Expense Tracker</a></li>
+                <li><a href="#savings">Savings Goals</a></li>
+                <li><a href="#ti""ps">Financial Tips</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Your Personal Finance Dashboard</h2>
+        <p>Track your spending, set budgets, and save for your future.<br>Welcome to your personal finance dashboard. Our goal is to help you manage your money with ease, set and track budgets, monitor your spending, and work towards your financial goals.<hr> Whether you're just starting out or already managing your finances, we have the tools you need to stay on track and achieve financial success."
+
+            Call to Action:
+            "Get Started Today — Set up your budget and start tracking your expenses for a better financial future.</p>
+    </section>
+
+    <section id="budget">
+        <h2>Budget Tracker</h2>
+        <p>Building a budget is the first step towards financial control.
+            <br> Our Budget Tracker helps you plan and visualize your monthly income, expenses, and savings goals. <br>You can easily track your progress and see how well you're sticking to your financial plan
+            </p>
+        <form id="budgetForm">
+            <label for="income">Monthly Income:</label>
+            <input type="number" id="income" required>
+            <label for="expense">Monthly Expenses:</label>
+            <input type="number" id="expense" required>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="budgetResult"></div>
+    </section>
+
+    <section id="expenses">
+        <h2>Expense Tracker</h2>Keeping track of every penny is crucial to staying on top of your financial health. With our Expense Tracker, you can log your daily and monthly expenses with ease. By reviewing your spending habits, you’ll get a clearer picture of where your money is going and how you can cut back
+        <p></p>
+        <form id="expenseForm">
+            <label for="expenseName">Expense Name:</label>
+            <input type="text" id="expenseName" required>
+            <label for="expenseAmount">Amount:</label>
+            <input type="number" id="expenseAmount" required>
+            <button type="submit">Add Expense</button>
+        </form>
+        <ul id="expenseList"></ul>
+    </section>
+
+    <section id="savings">
+        <h2>Savings Goals</h2>
+        <p>Saving for your future, whether it's an emergency fund, a vacation, or a big purchase, is easier when you have a clear goal. Our Savings Goals Tracker helps you set realistic targets, track your progress, and stay motivated as you work towards achieving your financial dreams</p>
+        <form id="savingsForm">
+            <label for="goalName">Goal Name:</label>
+            <input type="text" id="goalName" required>
+            <label for="goalAmount">Amount to Save:</label>
+            <input type="number" id="goalAmount" required>
+            <button type="submit">Set Goal</button>
+        </form>
+        <ul id="savingsList"></ul>
+    </section>
+
+    <section id="tips">
+        <h2>Financial Tips</h2>
+        <p>Learn how to better manage your finances with these helpful tips and guides.Financial success isn’t just about tracking numbers; it's about making smarter decisions and building good habits.<br> Explore our financial tips, expert advice, and educational resources to help you take control of your financial life</p>
+        <!-- Example tip -->
+        <ul>
+            <li>Tip 1: Save 20% of your income each month.</li>
+            <li>Tip 2: Avoid credit card debt.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Personal Finance Management. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
